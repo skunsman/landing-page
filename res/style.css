@@ -97,17 +97,27 @@ h1 {
     height: 100px;
 }
 
+/* Testimony Section */
+
 .testimony {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding: 100px 150px;
 }
 
-.testimony span {
+.testimony p {
     font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
     color: #1F2937;
+    margin: 0;
 }
+
+.testimony b {
+    text-align: right;
+}
+
 
 .cta {
     display: flex;
