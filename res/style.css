@@ -51,7 +51,8 @@ body {
 .hero input {
     display: block;
     width: 100px;
-    color: #fff;
+    color: #F9FAF8;
+    border-style: none;
     border-radius: 8px;
     font-weight: bold;
     padding: 8px;
@@ -118,10 +119,42 @@ h1 {
     text-align: right;
 }
 
+/* Call to Acition Section */
 
 .cta {
     display: flex;
+    justify-content: space-around;
+    margin: 40px 90px;
+    padding: 40px 50px;
+    border-radius: 8px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-text p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.cta-button {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.cta-button input {
+    width: 100px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-weight: bold;
+    padding: 8px;
 }
 
 .footer {
