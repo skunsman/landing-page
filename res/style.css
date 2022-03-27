@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
 }
 
 /* Header section */
@@ -147,6 +148,10 @@ h3 {
     justify-content: center;
 }
 
+.cta, input {
+    background-color: #3882F6;
+}
+
 .cta-button input {
     width: 100px;
     color: #F9FAF8;
@@ -166,10 +171,7 @@ h3 {
     background-color: #2d4669;
 }
 
-.header .logo {
+.header .logo, .footer {
     color: #F0FAF8;
 }
 
-.cta, input {
-    background-color: #3882F6;
-}
